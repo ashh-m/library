@@ -13,7 +13,7 @@ public class Inventory {
 
 	public void addBook(Book book) {
 		mainInventory.add(book);
-		System.out.println("Book added to library);
+		System.out.println("Book added to library");
 	}
 
 	public boolean borrowBook(int id) {
